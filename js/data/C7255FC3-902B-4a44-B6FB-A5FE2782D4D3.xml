@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "Manual Remote Control", "EARoot/EA2/EA2/EA18.htm", "7.png", "E110", "0", "", "UseCase0","{C4B11563-7430-4fb1-BF00-02AB52D7E9E7}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "Map Based Control", "EARoot/EA2/EA2/EA19.htm", "7.png", "E111", "0", "", "UseCase0","{F7C9B070-8953-4cc2-8F52-F8F0D8580E47}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "Triggers Automous Exporation and Mapping", "EARoot/EA2/EA2/EA20.htm", "7.png", "E112", "0", "", "UseCase0","{E8ABFE45-4F9E-4379-A58F-9D0CDD7CA6BE}");

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Central Body</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA26.png" usemap="#EA26" border="0" />
+
+<MAP NAME="EA26">
+<area shape="rect" coords="290,200,390,260" href="../EA4/EA136.htm" target="_self">
+<area shape="rect" coords="170,330,290,400" href="EA21.htm" target="_self">
+<area shape="rect" coords="400,330,520,400" href="EA21.htm" target="_self">
+<area shape="rect" coords="450,200,570,270" href="EA35.htm" target="_self">
+<area shape="rect" coords="370,70,490,140" href="EA35.htm" target="_self">
+<area shape="rect" coords="200,70,320,140" href="EA21.htm" target="_self">
+<area shape="rect" coords="120,200,240,270" href="EA21.htm" target="_self">
+<area shape="rect" coords="307,433,322,448" href="EA134.htm" target="_self">
+<area shape="rect" coords="361,433,376,448" href="EA135.htm" target="_self">
+<area shape="rect" coords="613,227,628,242" href="EA128.htm" target="_self">
+<area shape="rect" coords="613,100,628,115" href="EA131.htm" target="_self">
+<area shape="rect" coords="453,433,468,448" href="EA129.htm" target="_self">
+<area shape="rect" coords="220,433,235,448" href="EA130.htm" target="_self">
+<area shape="rect" coords="63,228,78,243" href="EA132.htm" target="_self">
+<area shape="rect" coords="62,99,77,114" href="EA133.htm" target="_self">
+<area shape="rect" coords="70,10,620,440" href="EA44.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Central Body : Component diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">5/18/2020 3:09:52 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">5/27/2020 11:40:09 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">rboir</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{CB2C514F-3DBB-4310-94A4-517B61D02D38}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
